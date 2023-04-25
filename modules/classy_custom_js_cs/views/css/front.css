@@ -1,0 +1,117 @@
+body#checkout section.checkout-step{
+  margin: 30px auto;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border: 2px solid #EAEBF2;
+  border-radius:10px;
+  border: 0px 
+}
+
+#wrapper{
+  background-color: #eaeff6
+}
+
+body#checkout .cart-grid-right .card{
+  border-radius: 10px;
+}
+
+.cart-grid-right{
+  margin-top: 30px
+}
+
+body#checkout section.checkout-step .step-title{
+  color: #000099;
+  font-weight: 800;
+}
+
+.form-group{
+  margin-bottom: 0px
+}
+
+.form-group.row{
+  display: flex;
+  flex-direction: column
+}
+
+.js-input-column{
+  width: 100%
+}
+
+.form-control{
+  background-color: #EAEBF2;
+  border-radius: 5px;
+  border: 0px solid rgba(0,0,0,.25);
+}
+
+form .form-control-label{
+  font-weight: 400;
+  font-size: 14px;
+  color: #737373;
+  text-transform: uppercase;
+   width: 100%
+}
+
+.card-block{
+ 	background-color: #FFF;
+	padding: 30px;
+	border-radius: 6px
+}
+
+.card-block.cart-summary-totals .cart-summary-line.cart-total .label{
+   color: #000099;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+ body#checkout .cart-grid-right .card .cart-total{
+  font-weight: bold
+}
+
+body#checkout section.checkout-step .not-allowed, body#checkout section.checkout-step.-unreachable .step-title {
+  opacity: 1;
+}
+
+body#checkout section.checkout-step.-current+.checkout-step .step-title {
+  border-top: 0px
+}
+
+body#checkout section.checkout-step.-reachable.-current .step-number, .page-not-found .search-widget form, .search-widget, body#checkout section.checkout-step.-reachable.-complete h1 .done,
+body#checkout section.checkout-step.-current.-reachable.-complete .step-number, body#checkout section.checkout-step.-reachable.-current .step-number,
+body#checkout section.checkout-step .step-number {
+  display:none
+}
+
+button.continue.btn.btn-primary.float-xs-right, .btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:hover,.btn-primary:active:focus, .btn-primary:active:hover {
+	background-color: #FF5C53;
+	padding: 15px 30px;
+  border: 0px solid #FF5C53 ;
+  border-radius: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.block-promo .promo-input, .promo-input:focus{
+  height:0;
+  border:0px;
+  padding: 25px;
+  width: 100%;
+  background-color: #EAEBF2;
+  border-radius: 50px;
+}
+
+.block-promo .promo-input+button, .promo-input+button:active {
+  text-transform: uppercase;
+  position: absolute;
+  right: 0px;
+  border: 0px;
+    margin: 0
+}
+
+.text-muted{
+  font-weight: 700
+}
+
+.product-name a, .product-price{
+  color: black
+}
